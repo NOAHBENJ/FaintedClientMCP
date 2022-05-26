@@ -12,7 +12,7 @@ import net.minecraft.client.gui.ScaledResolution;
 public class Module {
 
 	public String name;
-	public static boolean toggled;
+	public boolean toggled;
 	public int keyCode;
 	public Category category;
 	public Minecraft mc = Minecraft.getMinecraft();
